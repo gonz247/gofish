@@ -1,4 +1,4 @@
-local Game = require('game')
+local Game = require('src.game')
 
 function love.load()
     Game.load()

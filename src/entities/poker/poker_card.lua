@@ -1,5 +1,5 @@
-local BaseCard = require('base_card')
-local PokerSpriteSheet = require('poker_sp')
+local BaseCard = require('src.entities.base_card')
+local PokerSpriteSheet = require('src.poker.poker_sp')
 
 local PokerCard = {}
 PokerCard.__index = PokerCard

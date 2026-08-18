@@ -1,7 +1,7 @@
 -- TODO create deck objetc, it will recieve card base_card objects of any kind
-local ERRORS= require('errors')
+local ERRORS= require('src.commons.errors')
 local utils = require('src.commons.utils')
-local BaseCard = require('base_card')
+local BaseCard = require('src.entities.base_card')
 local constants = require('src.commons.constants')
 
 

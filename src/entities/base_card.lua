@@ -1,4 +1,4 @@
-local ERRORS= require('errors')
+local ERRORS= require('src.commons.errors')
 
 
 local BaseCard = {}

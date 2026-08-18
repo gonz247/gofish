@@ -1,6 +1,6 @@
-local PokerSpriteSheet = require('poker_sp')
-local PokerCard = require('poker_card')
-local Deck = require('deck')
+local PokerSpriteSheet = require('src.entities.poker.poker_sp')
+local PokerCard = require('src.entities.poker.poker_card')
+local Deck = require('src.entities.deck')
 local constants = require('src.commons.constants')
 
 local Game = {}
