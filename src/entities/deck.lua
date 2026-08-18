@@ -32,7 +32,4 @@ function Deck:addCard(card)
     table.insert(self.cards, card)
 end
 
-function Deck:createBaseDeck()
- -- where should I create this Deck, is it better to do it on main? or create a new file with like game init, or level init?
-end
 return Deck
