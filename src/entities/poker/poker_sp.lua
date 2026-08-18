@@ -7,7 +7,7 @@ local PokerSpriteSheet = {
 
 function PokerSpriteSheet:load()
     love.graphics.setDefaultFilter('nearest', 'nearest')
-    PokerSpriteSheet.image  = love.graphics.newImage('assets/sprites/poker nano.png')
+    PokerSpriteSheet.image  = love.graphics.newImage('src/assets/sprites/poker nano.png')
     PokerSpriteSheet.card_w = 18
     PokerSpriteSheet.card_h = 22
     self:getAllQuads()
